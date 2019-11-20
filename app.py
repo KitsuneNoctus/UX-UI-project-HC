@@ -18,5 +18,10 @@ def chatrooms():
     """Shows all the Chatrooms avaiable"""
     return render_template('chatroom_menu.html')
 
+@app.route('/chatroom')
+def chatroom():
+    """Example chatroom"""
+    return render_template('example_chatroom.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
