@@ -394,8 +394,14 @@
             </div>
         </div>
     </div>
-    <div class="row">Interests: Stuff and more</div>
+    <div class="row mx-1">Interests: Stuff and more</div>
     <div class="container-fluid">
         <h6>Manga</h6>
+        <a href="#" class="btn btn-secondary">See All</a>
+        <div class="list-group">
+            {% for i in range(3) %}
+                {% include 'partials/recent_updates_list.html' %}
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}
