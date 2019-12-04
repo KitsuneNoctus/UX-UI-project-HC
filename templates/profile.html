@@ -1,10 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="row">
-        <h3>Profile</h3> 
-        <button type="button" class="btn" data-toggle="modal" data-target="#dataInputModal">
-            New Entry
-        </button>
+        <div class="col">
+                <h3>Profile</h3> 
+        </div>
+        <div class="col">
+            <button type="button" class="btn float-right" data-toggle="modal" data-target="#dataInputModal">
+                New Entry
+            </button>
+        </div>
     </div>
     <div class="modal fade" id="dataInputModal" tabindex="-1" role="dialog" aria-labelledby="dataInputModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -43,7 +47,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Class</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                     <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
