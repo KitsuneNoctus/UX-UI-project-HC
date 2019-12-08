@@ -1,3 +1,23 @@
 body{
-    body: brown;
+    background-color: lightskyblue;
+    font-family: "Parkavenue", Parkavenue, cursive;
 }
+
+.navbar {
+    opacity: 0.5;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,243,247,1) 55%, rgba(243,243,247,1) 100%);
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.background-img {
+    position: relative;
+    background-image: url("test-image.jpg");
+    padding-top:200px;
+    padding-bottom:200px;
+    background-repeat: no-repeat;
+}
+
